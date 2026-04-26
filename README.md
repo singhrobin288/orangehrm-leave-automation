@@ -9,11 +9,13 @@ Test automation framework for the Leave module of the OrangeHRM open-source demo
 
 ## Setup
 
+```
 git clone https://github.com/singhrobin288/orangehrm-leave-automation.git
 cd orangehrm-leave-automation
 npm install
 npx playwright install chromium
 cp .env.example .env
+```
 
 ## Running the tests
 
