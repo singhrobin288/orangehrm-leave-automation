@@ -1,0 +1,22 @@
+{
+  "name": "orangehrm-leave-automation",
+  "version": "1.0.0",
+  "description": "BDD test automation framework for OrangeHRM Leave module using Playwright and Cucumber",
+  "author": "Ripudaman Singh",
+  "license": "ISC",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "cross-env HEADED=true cucumber-js",
+    "test:report": "cucumber-js && npx open-cli reports/cucumber-report.html",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.4",
+    "cross-env": "^10.1.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
