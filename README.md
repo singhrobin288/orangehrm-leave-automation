@@ -35,3 +35,7 @@ npx playwright show-trace reports/traces/<scenario-name>.zip
 ## Configuration
 
 All config lives in .env (see .env.example for the template).
+
+## Test execution
+
+See [docs/test-execution-report.png](docs/test-execution-report.png) for a screenshot of the most recent passing run.
